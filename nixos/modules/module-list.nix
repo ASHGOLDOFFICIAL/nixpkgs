@@ -196,6 +196,7 @@
   ./programs/fzf.nix
   ./programs/gamemode.nix
   ./programs/gamescope.nix
+  ./programs/gdk-pixbuf.nix
   ./programs/geary.nix
   ./programs/git.nix
   ./programs/gnome-disks.nix
@@ -218,6 +219,7 @@
   ./programs/kbdlight.nix
   ./programs/kclock.nix
   ./programs/kdeconnect.nix
+  ./programs/ladybird.nix
   ./programs/lazygit.nix
   ./programs/kubeswitch.nix
   ./programs/less.nix
@@ -281,6 +283,7 @@
   ./programs/systemtap.nix
   ./programs/thefuck.nix
   ./programs/thunar.nix
+  ./programs/thunderbird.nix
   ./programs/tmux.nix
   ./programs/traceroute.nix
   ./programs/trippy.nix
@@ -292,6 +295,7 @@
   ./programs/virt-manager.nix
   ./programs/wavemon.nix
   ./programs/wayland/cardboard.nix
+  ./programs/wayland/hyprlock.nix
   ./programs/wayland/hyprland.nix
   ./programs/wayland/labwc.nix
   ./programs/wayland/river.nix
@@ -417,6 +421,7 @@
   ./services/cluster/kubernetes/scheduler.nix
   ./services/cluster/pacemaker/default.nix
   ./services/cluster/patroni/default.nix
+  ./services/cluster/rke2/default.nix
   ./services/cluster/spark/default.nix
   ./services/computing/boinc/client.nix
   ./services/computing/foldingathome/client.nix
@@ -767,12 +772,14 @@
   ./services/misc/octoprint.nix
   ./services/misc/ollama.nix
   ./services/misc/ombi.nix
+  ./services/misc/open-webui.nix
   ./services/misc/osrm.nix
   ./services/misc/owncast.nix
   ./services/misc/packagekit.nix
   ./services/misc/paperless.nix
   ./services/misc/parsoid.nix
   ./services/misc/persistent-evdev.nix
+  ./services/misc/pghero.nix
   ./services/misc/pinnwand.nix
   ./services/misc/plex.nix
   ./services/misc/plikd.nix
@@ -829,6 +836,7 @@
   ./services/misc/zoneminder.nix
   ./services/misc/zookeeper.nix
   ./services/monitoring/alerta.nix
+  ./services/monitoring/alloy.nix
   ./services/monitoring/apcupsd.nix
   ./services/monitoring/arbtt.nix
   ./services/monitoring/below.nix
@@ -1243,6 +1251,7 @@
   ./services/search/meilisearch.nix
   ./services/search/opensearch.nix
   ./services/search/qdrant.nix
+  ./services/search/quickwit.nix
   ./services/search/sonic-server.nix
   ./services/search/typesense.nix
   ./services/security/aesmd.nix
@@ -1325,6 +1334,7 @@
   ./services/video/unifi-video.nix
   ./services/video/v4l2-relayd.nix
   ./services/wayland/cage.nix
+  ./services/wayland/hypridle.nix
   ./services/web-apps/akkoma.nix
   ./services/web-apps/alps.nix
   ./services/web-apps/anuko-time-tracker.nix
@@ -1490,7 +1500,6 @@
   ./services/x11/display-managers/xpra.nix
   ./services/x11/extra-layouts.nix
   ./services/x11/fractalart.nix
-  ./services/x11/gdk-pixbuf.nix
   ./services/x11/hardware/cmt.nix
   ./services/x11/hardware/digimend.nix
   ./services/x11/hardware/synaptics.nix
