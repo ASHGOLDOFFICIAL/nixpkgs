@@ -4,7 +4,7 @@
 , qt5
 }:
 
-stdenv.mkDerivation(finalAttrs: {
+stdenv.mkDerivation (finalAttrs: {
   pname = "skyscraper";
   version = "3.11.1";
 
