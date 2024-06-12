@@ -25,7 +25,7 @@ stdenv.mkDerivation (finalAttrs: {
   env.PREFIX = placeholder "out";
 
   meta = {
-    description = "Powerful and versatile game data scraper written in Qt and C++.";
+    description = "Powerful and versatile game data scraper written in Qt and C++";
     homepage = "https://gemba.github.io/skyscraper/";
     downloadPage = "https://github.com/Gemba/skyscraper/releases/tag/${finalAttrs.version}";
     license = lib.licenses.gpl3Only;
